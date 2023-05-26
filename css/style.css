@@ -1,0 +1,464 @@
+body{
+    background-color: #D9D9D9;
+}
+
+@font-face {
+    font-family: 'Times Sans Serif';
+    src: url('../texts/Times-Sans-Serif.ttf');
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 80px 56px 80px;
+    color: #070707;
+    font-family: 'Noto Sans Tamil', sans-serif;
+}
+
+#menu>a>img{
+    width: 80px;
+}
+
+#menu_elements{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap:32px
+}
+
+#menu_elements>li>a{
+    color:#070707;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+
+#cv a,span{ 
+    text-align: center;
+}
+
+main{
+    font-family: 'Times Sans Serif';
+}
+
+
+h1{
+    font-size: 120px;
+    margin: 32px 80px -8px 80px;
+}
+
+#specialities{
+    display: flex;
+    background-color: #764571;
+    padding: 56px 80px;
+    justify-content: space-between;
+}
+
+#specialities p{
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+#userexperience{
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+    color: #764571;
+    align-items: center;
+    justify-content: space-between;
+    margin: 56px 80px;
+}
+
+.line{
+    border-bottom: 1px solid #764571;
+    width:570px
+}
+
+#user{
+    background-color: rgba(118, 69, 113, 0.1);
+    padding: 20px 30px;
+    margin-left: 16px;
+    border-radius: 20px;
+    border: #764571 5px solid;
+}
+
+#mywork{
+    text-align: center;
+    margin: 112px 0px 24px 0px;
+}
+
+#mywork a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #070707;
+}
+
+
+#cv a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    height: 28px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+
+#mywork>h2>a{
+    font-size: 25px;
+    color:#070707;
+	text-decoration: none;
+}
+
+li>a:hover{
+    color: #764571;
+}
+
+#projectsection{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    padding-top: 104px;
+    padding-bottom: 48px;
+}
+
+.area{
+    padding-bottom: 24px;
+}
+
+.slide{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    overflow-x: scroll;
+    margin: 0px 80px;
+    padding: 8px 8px;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image:url("../images/casabarre.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 518px;
+    height: 518px;
+    border-radius: 40px;
+    flex: none;
+    box-shadow: 3px 3px 5px rgba(217, 217, 217, 0.6);
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image:url("../images/wecare.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 518px;
+    height: 518px;
+    border-radius: 40px;
+    flex: none;
+    box-shadow: 3px 3px 5px rgba(217, 217, 217, 0.6);
+}
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image:url("../images/ecommerce.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 518px;
+    height: 518px;
+    border-radius: 40px;
+    flex: none;
+    box-shadow: 3px 3px 5px rgba(217, 217, 217, 0.6);
+}
+
+.content1{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    align-items: flex-end;
+    padding: 40px 24px 40px 24px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transition: .5s;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.card1:hover .content1{
+    opacity: 1;
+}
+
+.content2{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    align-items: flex-end;
+    padding: 40px 24px 40px 24px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transition: .5s;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.card2:hover .content2{
+    opacity: 1;
+}
+
+.content3{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    align-items: flex-end;
+    padding: 40px 24px 40px 24px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transition: .5s;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.card3:hover .content3{
+    opacity: 1;
+}
+
+.firstblock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.line2{
+    border-bottom: 1px solid #764571;
+    width:180px
+}
+
+h4{
+    font-size: 26px;
+    color: #764571;
+}
+
+.projectdefinition{
+    font-size: 23px;
+    color: #070707;
+    text-align: justify;
+    padding-bottom: 24px;
+    padding-top: 8px;
+}
+
+.btn{
+    padding: 16px 24px;
+    color: #FFFFFF;
+    background-color: #764571;
+    border-radius: 20px;
+    border: none;
+    width: 157px;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.btn:hover{
+    border: #764571 1px solid;
+    color: #764571;
+    background-color:rgba(118, 69, 113, 0.1);
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 20px;
+    margin: 40px 80px;
+}
+
+#footer_elements{
+    list-style: circle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+#footer_elements>li>a{
+    text-decoration: none;
+    color: #070707;
+    font-size: 18px;
+}
+
+.copy{
+    font-size: 18px;
+    color: #070707;
+}
+
+.contactaconmigo{
+    font-size: 18px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+    body{
+        width: 80%;
+    }
+
+    #menu{
+        width: 80%;
+        flex-direction: column !important;
+        justify-content: center;
+    }
+        
+    #menu_elements{
+		flex-direction: column !important;
+        padding:40px;
+        border-bottom: #764571 2px solid;
+	}
+
+	#menu_elements>li>a{
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 50px;
+        padding-bottom: 24px;
+    }
+
+    #specialities{
+        width: 80%;
+        flex-direction: column;
+        gap: 25px;
+        padding: 32px 80px;
+    }
+
+    #specialities p{
+        font-size: 22px;
+        color: #FFFFFF;
+        
+    }
+
+    #userexperience{
+        margin:20px 80px 140px 80px;
+        width: 80%;
+        flex-direction: column !important;
+        font-size: 32px;
+    }
+    
+    .line{
+        display: none;
+    }
+    
+    #user{
+        width: 80%;
+        padding: 0;
+        font-size: 32px;
+        color: #764571;
+        padding: 0px 0px;
+        margin-left: 8px;
+        border-radius: 0px;
+        border: none;
+        background: none;
+    }
+
+    #mywork{
+        width: 80%;
+        padding-bottom: 24px;
+        border-bottom: #070707 solid 1px;
+        margin:0px 80px;
+    }
+
+    #mywork span{
+        padding-top: 30px;
+        display: none;
+    }
+
+    h3{
+        font-size: 22px;
+        padding-top: 64px;
+        padding-bottom: 48px;
+    }
+
+    #projectsection{
+        background: none;
+        margin: 0px 80px;
+        padding-bottom: 24px;
+        border-bottom: #070707 solid 1px;
+    }
+
+    .slide{
+        width: 100%!important;
+        flex-direction: column !important;
+        justify-content: center;
+        gap: 24px;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    .card1, .card2, .card3{
+        width: 100%;
+        margin:10px;
+        background-size:contain;
+    }
+
+
+    .content1, .content2, .content3{
+        width: 80%;
+        margin:10px;
+        background-size:contain;
+    }
+
+
+h4{
+    font-size: 20px;
+}
+
+.projectdefinition{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.btn{
+    padding: 8px 8px;
+    font-size: 16px;
+}
+    #footer{
+        padding-top: 32px;
+        width: 80%;
+        flex-direction: column !important;
+        justify-content: center;
+        gap:24px;
+        margin: 88px 80px;
+    }
+        
+    #footer_elements{
+		flex-direction: column !important;
+	}
+
+    .copy, .contactaconmigo{
+        font-size: 14px;
+    }
+
+    #footer_elements>li>a{
+        font-size: 14px;
+    }
+
+}
